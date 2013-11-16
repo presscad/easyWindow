@@ -13,6 +13,5 @@ int WINAPI WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR cmdLine,int
 	//尽情的使用窗口hwnd吧，如果要自定义窗口行为，请修改easyWindow.cpp里面的windProc函数
 
 
-	msgCircle();
-	return afxmsg.wParam;
+	return msgCircle();
 }

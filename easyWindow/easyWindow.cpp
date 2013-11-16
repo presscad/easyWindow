@@ -43,13 +43,14 @@ LRESULT CALLBACK windProc(HWND hwnd,UINT message,WPARAM wParam,LPARAM lParam)
 	return (0);
 }
 //消息循环函数，在需要等待的地方使用，比waitkey好玩
-void msgCircle(MSG &msg,HWND hwnd)
+WPARAM msgCircle(MSG &msg,HWND hwnd)
 {
 	while(GetMessage(&msg,hwnd,0,0))
 	{
 		TranslateMessage(&msg);
 		DispatchMessage(&msg);
 	}
+	return msg.wParam;
 }
 //批量初始化化函数，主要初始化全局变量和注册窗口类
 bool WinInit(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR cmdLine,int nCmd,char* className)
