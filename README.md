@@ -62,6 +62,6 @@ Gitcafe: <https://gitcafe.com/wangwenbin/easyWindow>
 
 	
 ##如何为easyWindow做贡献？
-1. 提出你的修改建议和bug，可以在Issue上反映，也可以mail作者（最好去issue上提交吧）。
+1. 提出你的修改建议和bug，可以在Issue上反映，也可以mail作者（wangwenbin@outlook.com）（最好去issue（在gitcafe上叫工单，需要登录）上提交吧）。
 
 2. 通过你的github或者gitcafe提交合并申请。这种方式非常欢迎。
